@@ -35,6 +35,12 @@ Run the node js file by using the CMD below
 
 >node data.js
 
+
+Can Access the Application through
+
+>http://localhost:8080/
+
+
 Your output as in Javascript table as follows.
 Before and after Calculated.
 ![Screenshot (9)](https://user-images.githubusercontent.com/37392779/117652945-6d89b080-b1b1-11eb-8083-84c32d5ec510.png)
