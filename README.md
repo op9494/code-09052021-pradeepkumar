@@ -41,6 +41,27 @@ Can Access the Application through
 >http://localhost:8080/
 
 
-Your output as in Javascript table as follows.
-Before and after Calculated.
-![Screenshot (9)](https://user-images.githubusercontent.com/37392779/117652945-6d89b080-b1b1-11eb-8083-84c32d5ec510.png)
+Your output as in Javascript table as follows.:
+
+Before Calculated
+┌─────────┬──────────┬──────────┬──────────┐
+│ (index) │  Gender  │ HeightCm │ WeightKg │
+├─────────┼──────────┼──────────┼──────────┤
+│    0    │  'Male'  │   171    │    96    │
+│    1    │  'Male'  │   161    │    85    │
+│    2    │  'Male'  │   180    │    77    │
+│    3    │ 'Female' │   166    │    62    │
+│    4    │ 'Female' │   150    │    70    │
+│    5    │ 'Female' │   167    │    82    │
+└─────────┴──────────┴──────────┴──────────┘
+After Calculating BMI
+┌─────────┬──────────┬──────────┬──────────┬────────────────────┬────────────────────┬─────────────────────┐
+│ (index) │  Gender  │ HeightCm │ WeightKg │        BMI         │    BMICategory     │     HealthRisk      │
+├─────────┼──────────┼──────────┼──────────┼────────────────────┼────────────────────┼─────────────────────┤
+│    0    │  'Male'  │   171    │    96    │ 32.83061454806607  │ 'Moderately obese' │   'Enhanced risk'   │
+│    1    │  'Male'  │   161    │    85    │ 32.79194475521777  │ 'Moderately obese' │   'Enhanced risk'   │
+│    2    │  'Male'  │   180    │    77    │ 23.76543209876543  │  'Normal weight'   │ 'Malnutrition risk' │
+│    3    │ 'Female' │   166    │    62    │ 22.49963710262738  │  'Normal weight'   │ 'Malnutrition risk' │
+│    4    │ 'Female' │   150    │    70    │ 31.11111111111111  │ 'Moderately obese' │   'Enhanced risk'   │
+│    5    │ 'Female' │   167    │    82    │ 29.402273297715947 │    'Overweight'    │     'Low risk'      │
+└─────────┴──────────┴──────────┴──────────┴────────────────────┴────────────────────┴─────────────────────┘
