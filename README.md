@@ -42,7 +42,7 @@ Can Access the Application through
 
 
 Your output as in Javascript table as follows.:
-
+'''
 Before Calculated
 ┌─────────┬──────────┬──────────┬──────────┐
 │ (index) │  Gender  │ HeightCm │ WeightKg │
@@ -65,3 +65,4 @@ After Calculating BMI
 │    4    │ 'Female' │   150    │    70    │ 31.11111111111111  │ 'Moderately obese' │   'Enhanced risk'   │
 │    5    │ 'Female' │   167    │    82    │ 29.402273297715947 │    'Overweight'    │     'Low risk'      │
 └─────────┴──────────┴──────────┴──────────┴────────────────────┴────────────────────┴─────────────────────┘
+'''
